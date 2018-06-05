@@ -4,7 +4,8 @@ const currentDay = base.getDate();
 const currentYear = base.getFullYear();
 const today = currentMonth + '-' + currentDay + '-' + currentYear;
 
-class Calender {
-  constructor(){}
-  this._month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-}
+let days30 = new Array(30);
+let days31 = new Array(31);
+let days28 = new Array(28);
+
+let months = [january: days30, 
